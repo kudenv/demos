@@ -1,0 +1,69 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitOverride": false,
+	"noUnusedLocals": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+	"useUnknownInCatchVariables": false,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@spartan-ng/helm/button": [
+        "./src/app/components/ui/ui-button-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/menu": [
+        "./src/app/components/ui/ui-menu-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/select": [
+        "./src/app/components/ui/ui-select-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/icon": [
+        "./src/app/components/ui/ui-icon-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/input": [
+        "./src/app/components/ui/ui-input-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/table": [
+        "./src/app/components/ui/ui-table-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/typography": [
+        "./src/app/components/ui/ui-typography-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/checkbox": [
+        "./src/app/components/ui/ui-checkbox-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/command": [
+        "./src/app/components/ui/ui-command-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/popover": [
+        "./src/app/components/ui/ui-popover-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/avatar": [
+        "./src/app/components/ui/ui-avatar-helm/src/index.ts"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "typeCheckHostBindings": true
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
+}
